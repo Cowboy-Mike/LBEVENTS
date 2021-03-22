@@ -2,6 +2,8 @@
 
 require_relative "./longbeach_events/version"
 require_relative "./longbeach_events/cli"
+require_relative "./longbeach_events/scraper"
+require_relative "./longbeach_events/events"
 require "nokogiri"
 require "pry"
 require "open-uri"

@@ -4,3 +4,11 @@ require_relative "../lib/longbeach_events"
 
 
 LongbeachEvents::CLI.new.call
+LongbeachEvents::Scraper.scrape_events
+
+def get_events
+    @events = LongbeachEvents::Events
+    puts @events
+end
+
+puts LongbeachEvents::Events.all.title
